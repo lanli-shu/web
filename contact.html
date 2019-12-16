@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>联系方式</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=xEV5ATcw4rWONKtitAzUHZHDYPNWibYS"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="container clearfix">
+            <span>欢迎来到XXX律师事务所官网，我们将竭诚为您服务！</span>
+            <div class="right">
+                <img src="images/tel.png" alt=""> 咨询热线： <a href="#">400-XXX-XXXX</a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div id="nav" class="container">
+        <img src="images/logo.png" alt=""><a href="#" class="name">XXXX律师事务所</a>
+        <ul class="right">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="service.html">服务项目</a></li>
+            <li><a href="SuccessfulCase.html">成功案例</a></li>
+            <li><a href="Lawyerteam.html">律师团队</a></li>
+            <li><a href="news.html">新闻动态</a></li>
+            <li class="active"><a href="contact.html">联系方式</a></li>
+        </ul>
+    </div>
+    <!-- banner -->
+    <div id="banner">
+        <div class="container">
+            <div class="textColor">
+                <p>为您排忧解难</p>
+                <p>是我们最重要的事</p>
+                <span>咨询热线：400-XXX-XXXX</span>
+            </div>
+        </div>
+    </div>
+    <!-- 分割线 -->
+    <div class="line"></div>
+    <!-- 内容头部 -->
+    <div id="main">
+        <!-- 内容头部 -->
+        <div class="main-head container ">
+            <ul class="clearfix">
+                <li> <span class="p1_act0"></span><a href="#">找律师</a></li>
+                <li><span class="p2_act0"></span><a href="#">选服务</a></li>
+                <li><span class="p3_act0"></span><a href="#">看案例</a></li>
+                <li class="no-border"><span class="p4_act0"></span><a href="#">要咨询</a></li>
+            </ul>
+        </div>
+        <!-- 面包屑-->
+        <div class="crumb">
+            <div class="container clearfix">
+                <div class="left">联系方式</div>
+                <div><a href="index.html"> 首页</a>&nbsp;>>&nbsp;<a href="contact.html">联系方式</a></div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div id="centen" class="container clearfix">
+            <div class="left">
+                <h1>XXXXX律师事务所</h1>
+                <P>电话：0571-XXXXXXXX</P>
+                <P>邮箱：XXXX@XXXX.COM</P>
+                <P>地址：XXX省XXX市XXXX区XXXX路XXX号</P>
+                <div><img src="images/lxfs.png" alt=""></div>
+            </div>
+            <div class="right">
+                <div id="allmap"><img src="images/map.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚 -->
+    <div id="footer">
+        <div class="container clearfix">
+            <div class="left">XXXXX律师事务所</div>
+            <div class="left">
+                <p>电话：0571-XXXXXXXX 传真：0571-XXXXXXXX 邮箱：XXXX@XXXX.com</p>
+                <p>地址：XXX省XXX市XXXX区XXXX路XXX号XXXX大厦XX楼XXXX号</p>
+            </div>
+            <div class="right"><span>扫一扫</span><span>关注官方微信</span></div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        // 百度地图API功能
+        var map = new BMap.Map("allmap");
+        map.centerAndZoom(new BMap.Point(104.06, 30.67), 11);
+        var local = new BMap.LocalSearch(map, {
+            renderOptions: {
+                map: map
+            }
+        });
+        local.search("天安门");
+    </script>
+
+</body>
+
+</html>

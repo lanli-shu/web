@@ -1,0 +1,85 @@
+#main {
+    height: 794px;
+}
+
+#centenr {
+    height: 670px;
+    background: #fff;
+    padding-top: 36px;
+}
+
+
+/* 左 */
+
+#centenr>ul li {
+    width: 198px;
+    height: 40px;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#centenr li>h2 {
+    color: #333;
+}
+
+#centenr>ul li:first-child {
+    margin-bottom: 14px;
+    padding-left: 6px;
+}
+
+
+/* 右 */
+
+#centenr>div {
+    width: 786px;
+    /* height: 870px; */
+    margin: 32px 86px 0 102px;
+}
+
+#centenr>div>div:first-child {
+    height: 112px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 32px;
+}
+
+#centenr>div>div:first-child h2 {
+    color: #007fe0;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+#centenr>div>div:first-child>span {
+    color: #999;
+}
+
+#centenr>div>div:first-child>p {
+    color: #444;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+#centenr>div li {
+    margin-bottom: 18px;
+}
+
+#centenr>div li>span {
+    color: #999;
+    float: left;
+    margin-right: 12px;
+}
+
+
+/* 下面 */
+
+#centenr>div>div:last-child {
+    margin-left: 50%;
+    margin-top: 80px;
+}
+
+#centenr>div>div:last-child>span {
+    color: #c42307;
+}

@@ -1,0 +1,41 @@
+#main {
+    height: 1104px;
+}
+
+#conten {
+    height: 946px;
+    background: #fff;
+    padding-top: 70px;
+}
+
+#conten .team {
+    width: 498px;
+    height: 236px;
+    background: #f1f1f1;
+    padding: 10px 0 10px 10px;
+    margin: 0 42px 45px 0;
+    float: left;
+}
+
+#conten>div {
+    margin: 0 15px 0 60px;
+}
+
+#conten .team>div>p {
+    margin-bottom: 18px;
+    font-size: 12px;
+}
+
+#conten .team div {
+    margin: 40px 0 0 24px;
+    float: left;
+    width: 190px;
+}
+
+#conten .team>div>p:nth-child(1) {
+    font-size: 16px;
+}
+
+#conten .team div a {
+    color: #507bec;
+}

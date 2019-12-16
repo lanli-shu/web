@@ -1,0 +1,107 @@
+#main {
+    height: 1139px;
+}
+
+
+/* 内容 */
+
+#centenr {
+    height: 1012px;
+    background: #fff;
+    padding-top: 38px;
+}
+
+
+/* 左 */
+
+#centenr>ul li {
+    width: 198px;
+    height: 40px;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 40px;
+    font-size: 14px;
+    color: #999;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#centenr li>h2 {
+    color: #333;
+}
+
+#centenr>ul li:first-child {
+    margin-bottom: 14px;
+    padding-left: 6px;
+}
+
+#centenr>ul li a {
+    color: #999;
+}
+
+#centenr>div {
+    width: 786px;
+    height: 870px;
+    margin: 32px 86px 0 102px;
+}
+
+
+/* 右 */
+
+#centenr>div>.show {
+    width: 210px;
+    height: 245px;
+    border: 1px solid #dcdc;
+    padding: 15px;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+#centenr>div>.show>img {
+    width: 210px;
+    height: 210px;
+}
+
+#centenr>div>.show>a {
+    color: #3b8aff;
+    margin-left: 6px;
+}
+
+#centenr>div>.show>p {
+    margin: 4px 0 5px 6px;
+}
+
+
+/* 翻页 */
+
+#centenr .paging {
+    text-align: center;
+}
+
+#centenr .paging li {
+    padding: 2px 6px;
+    display: inline-block;
+}
+
+#centenr .paging li:not(.pass) {
+    border: solid 1px #dcdc;
+}
+
+#centenr .paging li>a {
+    color: #3b8aff;
+    font-size: 10px;
+}
+
+#centenr .paging li>input {
+    width: 26px;
+    height: 22px;
+    border: 1px solid #dcdc;
+}
+
+#centenr .paging li:nth-child(8)>a {
+    color: #333;
+}
+
+#centenr .paging .active a {
+    color: #333;
+    font-weight: 700;
+}

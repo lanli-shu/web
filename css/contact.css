@@ -1,0 +1,47 @@
+#main {
+    height: 576px;
+}
+
+#centen {
+    height: 430px;
+    background: #fff;
+    padding-top: 58px;
+}
+
+#centen>div:first-child {
+    width: 460px;
+    height: 384px;
+    /* border: 1px solid #000; */
+    margin-left: 46px;
+}
+
+#centen>div:first-child h1 {
+    margin-bottom: 46px;
+    color: #666;
+    font-weight: normal;
+}
+
+#centen>div:first-child p {
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #666;
+}
+
+#centen>div:first-child img {
+    width: 140px;
+    height: 140px;
+}
+
+#centen>div:first-child p:nth-child(4) {
+    margin-bottom: 38px;
+}
+
+#centen>div:last-child {
+    margin-right: 48px;
+}
+
+#centen #allmap {
+    width: 645px;
+    height: 382px;
+    /* border: 1px solid #000; */
+}

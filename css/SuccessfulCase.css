@@ -1,0 +1,78 @@
+#main {
+    height: 848px;
+}
+
+#conten {
+    height: 760px;
+    background: #fff;
+}
+
+#conten>div {
+    margin: 0 24px 0 40px;
+    padding-top: 50px;
+}
+
+#conten .case {
+    width: 262px;
+    height: 300px;
+    margin: 0 20px 20px 0;
+    /* border: 1px solid #000; */
+    color: #666;
+    float: left;
+}
+
+#conten .case>img {
+    width: 262px;
+    height: 220px;
+}
+
+#conten .case>p {
+    margin-left: 6px;
+}
+
+#conten .case h3 {
+    font-size: 16px;
+    margin: 4px 0 4px 6px;
+    font-weight: normal;
+}
+
+
+/* 翻页 */
+
+#conten .paging {
+    text-align: center;
+}
+
+#conten .paging li {
+    padding: 2px 6px;
+    display: inline-block;
+}
+
+#conten .paging li:nth-child(3) {
+    border: 1px solid #dcdc;
+}
+
+#conten .paging li>a {
+    color: #3b8aff;
+    font-size: 10px;
+}
+
+#conten .paging li>input {
+    width: 26px;
+    height: 22px;
+    border: 1px solid #dcdc;
+}
+
+#conten .paging li:nth-child(3)>a {
+    color: #000;
+}
+
+#conten .paging .active {
+    background: #c1dffb;
+    border: 1px solid #195cad;
+}
+
+#conten .paging .active a {
+    color: #195cad;
+    font-weight: 700;
+}

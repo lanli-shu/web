@@ -1,0 +1,84 @@
+#main {
+    height: 666px;
+}
+
+#centenr {
+    height: 540px;
+    background: #fff;
+    padding-top: 36px;
+}
+
+
+/* 左 */
+
+#centenr>ul li {
+    width: 198px;
+    height: 40px;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#centenr li>h2 {
+    color: #333;
+}
+
+#centenr>ul li:first-child {
+    margin-bottom: 14px;
+    padding-left: 6px;
+}
+
+
+/* 右 */
+
+.center-r {
+    width: 764px;
+    /* height: 510px; */
+    padding: 42px 106px 26px;
+    font-size: 14px;
+    color: #686667;
+}
+
+.center-r>h3 {
+    font-size: 16px;
+    color: #3f5800;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.center-r span:not(:first-child) {
+    margin-left: 28px;
+}
+
+.title-1 {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#center .center-r p {
+    text-indent: 2em;
+    line-height: 24px;
+}
+
+.section {
+    height: 42px;
+    background-color: #f5f5f5;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.center-r a {
+    display: block;
+    margin-top: 16px;
+    color: #686667;
+}
+
+.center-r .paging {
+    margin-top: 30px;
+}
+
+
+/* 结束 */

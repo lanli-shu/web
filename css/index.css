@@ -1,0 +1,237 @@
+ /* 服务 */
+ 
+ #main .service {
+     height: 560px;
+     background: url(../images/index-p1-bg.png) no-repeat center bottom #fff;
+ }
+ 
+ #main .service-Show {
+     width: 1104px;
+     height: 380px;
+     margin: 59px 50px 46px;
+ }
+ 
+ #main .right {
+     width: 820px;
+ }
+ 
+ #main .sub-1 {
+     position: relative;
+ }
+ 
+ #main .sub-1>div {
+     display: none;
+ }
+ 
+ #main .sub-1:hover>div {
+     width: 260px;
+     background: rgba(0, 0, 0, 0.2);
+     position: absolute;
+     bottom: 0;
+     text-align: center;
+     line-height: 30px;
+     color: rgba(255, 255, 255, 0.6);
+     display: block;
+ }
+ 
+ #main .sub-1 {
+     float: left;
+ }
+ 
+ #main .right .sub-1:nth-child(2) {
+     margin: 0 16px 20px;
+ }
+ 
+ #main .right .sub-1:first-child {
+     margin-bottom: 20px;
+ }
+ 
+ #main .right .sub-1:nth-child(3) {
+     margin-bottom: 20px;
+ }
+ 
+ #main .right .sub-1:nth-child(5) {
+     margin-left: 16px;
+     margin-right: 16px;
+ }
+ /* 经典案例 */
+ 
+ #main .case {
+     background: url(../images/bg_l9wu.jpg) no-repeat bottom #fff;
+     height: 534px;
+     margin-top: 20px;
+ }
+ 
+ #main .case .title1 {
+     height: 42px;
+     padding-top: 49px;
+ }
+ 
+ #main .case-Show {
+     width: 1104px;
+     margin: 70px 50px 46px;
+ }
+ 
+ #main .case-show1:first-child {
+     margin-left: 30px;
+ }
+ 
+ #main .case-show1 {
+     width: 238px;
+     height: 300px;
+     background: #fff;
+     margin-right: 30px;
+     float: left;
+ }
+ 
+ #main .case-show1>img {
+     width: 238px;
+     height: 150px;
+ }
+ 
+ #main .case-show1>div {
+     font-size: 16px;
+     margin: 24px 14px 0;
+     color: #444;
+ }
+ 
+ #main .case-show1>p {
+     margin: 10px 14px 0 14px;
+     line-height: 16px;
+     color: #444;
+ }
+ 
+ #main .case-show1>a {
+     color: #4a85e9;
+     margin: 16px 14px;
+     float: right;
+ }
+ 
+ .case .case-Show>a {
+     width: 80px;
+     height: 26px;
+     border: 1px solid #fff;
+     border-radius: 10px;
+     color: #fff;
+     text-align: center;
+     line-height: 26px;
+     display: inline-block;
+     margin-left: 46%;
+     margin-top: 18px;
+ }
+ /* 新闻 */
+ 
+ #main .trends {
+     margin-top: 22px;
+ }
+ 
+ #main .trends .news {
+     width: 740px;
+     background: #fff;
+     height: 370px;
+ }
+ 
+ #main .trends .trends-title {
+     height: 30px;
+     border-bottom: 1px solid #d5d4d2;
+     font-size: 18px;
+     padding: 22px 8px 0;
+ }
+ 
+ #main .trends-title>span {
+     color: #4a85e9;
+     font-size: 12px;
+ }
+ 
+ #main .trends-title>a {
+     color: #4a85e9;
+     font-size: 12px;
+     text-align: right;
+     float: right;
+     margin-top: 6px;
+ }
+ 
+ #main .trends .line {
+     margin-left: 0;
+ }
+ 
+ #main .trends .on-line {
+     width: 440px;
+     background: #fff;
+     height: 370px;
+ }
+ 
+ #main .trends .news-1 {
+     width: 662px;
+     height: 61px;
+     border-bottom: 1px solid #d5d4d2;
+     margin: 0 auto;
+     padding: 22px 10px 10px 10px;
+ }
+ 
+ #main .trends .news-1>div:first-child {
+     width: 60px;
+     height: 60px;
+     background: #198ede;
+     color: #fff;
+     text-align: center;
+ }
+ 
+ #main .trends .news-1>div:first-child>span:first-child {
+     font-size: 18px;
+     text-align: center;
+     display: block;
+     margin: 8px 0 6px;
+     font-weight: 700;
+ }
+ 
+ #main .trends .news-1>div:nth-child(2) {
+     width: 590PX;
+     color: #333333;
+ }
+ 
+ .trends .news-1>div:nth-child(2)>h2 {
+     font-weight: normal;
+ }
+ /* 预约 */
+ 
+ #main .trends form {
+     width: 382px;
+     height: 224px;
+     margin: 0 auto;
+     margin-top: 36px;
+ }
+ 
+ #main .trends form>p {
+     margin-bottom: 10px;
+ }
+ 
+ #main .trends form>p>span {
+     color: #f20111;
+     margin-right: 22px;
+ }
+ 
+ #main .trends form>p>input {
+     width: 320px;
+     height: 28px;
+     background: #f7f7f7;
+     border-radius: 4px;
+     border: 1px solid #e5e5e5;
+ }
+ 
+ #main .trends form>p>textarea {
+     width: 320px;
+     height: 70px;
+     border: 1px solid #e5e5e5;
+     background: #f7f7f7;
+     border-radius: 4px;
+     vertical-align: middle;
+ }
+ 
+ #main .trends form>p:last-child>input {
+     background: #198ede;
+     color: #fff;
+     height: 40px;
+     border: 0;
+     margin-left: 16%;
+ }
